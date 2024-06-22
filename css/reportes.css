@@ -1,0 +1,20 @@
+
+body {
+    background-image: url('../img/reportes.jpg'); /* Ruta corregida con barras normales */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%; /* Ajustar el ancho máximo al 100% */
+    margin: 0 auto; 
+    padding: 0px; /* Agregar un espacio de relleno alrededor del contenido */
+}
+
+.btn-secondary.back-button {
+    background-color: #02879f; /* Nuevo color de fondo al pasar el mouse */
+    border-color: #02879f; /* Nuevo color del borde al pasar el mouse */
+    color: #fff; /* Nuevo color del texto al pasar el mouse */
+}
+.card.h-100.rounded {
+    border-radius: 100px; /* Puedes ajustar el valor para cambiar el grado de redondeo */
+    opacity: 0.80; /* Cambiar la opacidad al valor deseado */
+}
